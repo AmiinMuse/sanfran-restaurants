@@ -1,3 +1,3 @@
 # San Francisco Restaurants
 
-## Welcom!
+## Welcome!
