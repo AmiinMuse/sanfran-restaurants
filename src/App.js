@@ -1,6 +1,7 @@
 // src/App.js
 import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+
 
 import './styles.css';
 
@@ -11,7 +12,7 @@ import MainContent from './components/MainContent';
 import Types from './components/Types';
 import Restaurant from './components/Restaurant';
 import Contact from './components/Contact';
-import Hit from './components/Hit';
+import HitList from './components/Hit'; 
 import FastFood from './components/Fastfood';
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
           <Route path="/types" element={<Types />} />
           <Route path="/restaurant" element={<Restaurant />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/hitlist" element={<Hit/>} />
+          <Route path="/hitlist" element={<HitList />} />
           <Route path="/type_fastfood" element={<FastFood />} />
         </Routes>
         <Footer />
