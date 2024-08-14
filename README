@@ -1,0 +1,13 @@
+## Interactive Features
+
+### 1. Font Type Adjuster
+
+#### As my first interactive features, I added a font type adjuster. This allows users to change the font type on the website. The expected behavior is that the users can select between "Sans-serif" and "Serif" fonts from a dropdown menu. The selected font will be applied to the whole page and site. 
+
+#### For Implementation, there is a dropdown menu located underneath the logo in the navigation bar.When a font type is selected, JavaScript changes the font-family of the entire document.
+
+### 2. Theme Switcher
+
+#### As my second interactive feature, I added a theme switcher. This feature allows users to change the color scheme of the website. The expected bahavior is that the users can switch between "Light", "Dark", and "High Contrast" themes from a dropdown menu. The selected theme will be applied to the whole page and iste. 
+
+#### For Implementation, there is a dropdown menu located underneath the logo in the navigation bar.When a font type is selected, JavaScript changes the className of the body element to apply the corresponding styles.

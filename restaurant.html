@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="path/to/logo-placeholder.png" alt="Logo">
+            <span>San Francisco Restaurants</span>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="types.html">Types</a></li>
+                <li><a href="hitlist.html">Hit-List</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Fixed toolbar for controls -->
+    <div class="toolbar">
+        <label for="font-select">Font Type:</label>
+        <select id="font-select">
+            <option value="Arial, sans-serif">Sans-serif</option>
+            <option value="'Times New Roman', serif">Serif</option>
+        </select>
+
+        <label for="theme-select">Theme:</label>
+        <select id="theme-select">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+            <option value="high-contrast">High Contrast</option>
+        </select>
+    </div>
+
+    <main>
+        <section class="restaurant">
+            <div class="types">
+                <h3>Types of Restaurants</h3>
+                <ol>
+                    <li onclick="filterRestaurants('fast-food')">Fast Food</li>
+                    <li onclick="filterRestaurants('food-trucks')">Food Trucks</li>
+                    <li onclick="filterRestaurants('cafe')">Café</li>
+                    <!-- Add more types as needed -->
+                </ol>
+            </div>
+            <div class="restaurant-details">
+                <div class="restaurant-info">
+                    <div class="restaurant-text">
+                        <h1>Hazy Dog</h1>
+                        <img src="https://img.cdn4dd.com/cdn-cgi/image/fit=contain,width=1200,height=672,format=auto/https://doordash-static.s3.amazonaws.com/media/restaurant/cover_square/cc876ee7-c57d-4610-81e4-8bcc4394dfd3.png" alt="Restaurant Image">
+                        <p>Location: 123 Main St, San Francisco, CA</p>
+                        <a href="https://www.hayzdogsf.com/"> Website (external link) </a>
+                    </div>
+                </div>
+                <h1>Restaurant Images</h1>
+                <div class="menu-images">
+                    <div class="menu-item">
+                        <img src="https://lazydog-assets.s3.amazonaws.com/uploads/nuggets/65a957168fba279df0c7e6bb/POPUP_BannerArtboard_2.jpg" alt="Food Image 1">
+                        <!-- <h4>Food Image 1</h4> -->
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://www.eatdrinkoc.com/wp-content/uploads/2013/07/lazydog3.jpg" alt="Food Image 2">
+                        <!-- <h4>Food Image 2</h4> -->
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://res.cloudinary.com/the-infatuation/image/upload/f_auto/q_auto/v1709582984/images/Hayz_Dog_Tramp_1_SF_ERIN_NG_jfsgwn.jpg" alt="Food Image 3">
+                        <!-- <h4>Food Image 3</h4> -->
+                    </div>
+                    <div class="menu-item">
+                        <img src="https://s3-media0.fl.yelpcdn.com/bphoto/XwLBJTNtsDCLY00HdYKC9g/348s.jpg" alt="Food Image 4">
+                        <!-- <h4>Food Image 4</h4> -->
+                    </div>
+                    <!-- Add more images as needed -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 San Francisco Restaurants</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
