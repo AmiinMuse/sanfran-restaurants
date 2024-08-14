@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sanfran-restaurants/static/css/main.b59fcdf0.chunk.css",
+    "main.js": "/sanfran-restaurants/static/js/main.1962f367.chunk.js",
+    "main.js.map": "/sanfran-restaurants/static/js/main.1962f367.chunk.js.map",
+    "runtime~main.js": "/sanfran-restaurants/static/js/runtime~main.269d75bb.js",
+    "runtime~main.js.map": "/sanfran-restaurants/static/js/runtime~main.269d75bb.js.map",
+    "static/js/2.cdfefb9c.chunk.js": "/sanfran-restaurants/static/js/2.cdfefb9c.chunk.js",
+    "static/js/2.cdfefb9c.chunk.js.map": "/sanfran-restaurants/static/js/2.cdfefb9c.chunk.js.map",
+    "static/js/3.177faaa1.chunk.js": "/sanfran-restaurants/static/js/3.177faaa1.chunk.js",
+    "static/js/3.177faaa1.chunk.js.map": "/sanfran-restaurants/static/js/3.177faaa1.chunk.js.map",
+    "index.html": "/sanfran-restaurants/index.html",
+    "precache-manifest.66ab380aede0e6964416f63e36d8d9b0.js": "/sanfran-restaurants/precache-manifest.66ab380aede0e6964416f63e36d8d9b0.js",
+    "service-worker.js": "/sanfran-restaurants/service-worker.js",
+    "static/css/main.b59fcdf0.chunk.css.map": "/sanfran-restaurants/static/css/main.b59fcdf0.chunk.css.map",
+    "static/media/styles.css": "/sanfran-restaurants/static/media/homepage_bg2.e1123da4.webp",
+    "static/media/logo.webp": "/sanfran-restaurants/static/media/logo.543868db.webp"
+  }
+}
